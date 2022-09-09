@@ -25,6 +25,10 @@ ul{
 
 }
 
+.bottom {
+    display: flex;
+}
+
 li {
 	list-style-type: none;
 }
@@ -66,14 +70,13 @@ a {
 		row-gap: 10px;
 		flex-direction: column;
 	}
-}
-=======
+
     border: 1px solid gray;
 } 
 
 .bottom {
     display: flex;
-    border: 1px solid black;
+    margin-top: 20px;
 }
 
 .left {
@@ -101,7 +104,7 @@ h5 {
 }
 
 img {
-    height: 15px;
+    height: 100%;
 }
 
 .left-3 {
