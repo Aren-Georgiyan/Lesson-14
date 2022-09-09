@@ -1,0 +1,62 @@
+.a{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    animation-name: example;
+    animation-duration:4s;
+}
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+    
+}
+
+.b {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    animation-name: one;
+    animation-duration:4s;
+}
+
+@keyframes one {
+    0% {background-color: red;}
+    25% {background-color:yellow;}
+    50% {background-color:blue;}
+    100% {background-color:green;}
+}
+
+.c {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    position: relative;
+    animation-name:two;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-direction: reverse;
+/*    animation-iteration-count: infinite;*/
+}
+
+@keyframes two {
+    0% {background-color: red; left: 0px; top: 0px;}
+    
+    25% {background-color: red; left: 600px; top: 0px;}
+    
+    50% {background-color: yellow; left: 600px; top: 300px;}
+    
+    75% {background-color: blue; left: 0; top: 300px;}
+    
+    100% {background-color: blue; left: 0px; top: 0px;}
+}
+
+
+
+
+
+
+
+
+
+
